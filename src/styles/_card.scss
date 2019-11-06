@@ -1,0 +1,23 @@
+.card {
+  background: whitesmoke;
+  padding: 0 20px;
+  width: 400px;
+  border: 2px solid black;
+}
+.card__answer {
+  font-family: monospace;
+  white-space: pre-wrap;
+}
+.card__button {
+  margin: 1em 0;
+  border-style: none;
+  background: whitesmoke;
+  border-bottom: lightcoral 1px solid;
+  padding: 0;
+  font-size: 12px;
+  font-family: Helvetica, sans-serif;
+
+  &:focus {
+    outline: none;
+  }
+}

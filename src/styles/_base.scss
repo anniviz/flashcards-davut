@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  margin: 0;
+  gap: 20px;
+  background: lightcoral;
+  padding: 20px;
+  font-family: Helvetica, sans-serif;
+}
