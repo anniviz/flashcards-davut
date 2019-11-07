@@ -8,5 +8,43 @@
     <link rel="stylesheet" href="styles/style.scss" />
     <script defer src="/js/main.js"></script>
   </head>
-  <body></body>
+  <body>
+    <template id="form-template">
+      <form class="form" data-js="form" action="">
+        <label class="label" for="title"
+          >Title
+          <input
+            type="text"
+            name="title"
+            id="title"
+            placeholder="Insert title"
+          />
+        </label>
+
+        <label class="label" for="question"
+          >Question
+          <textarea
+            name="question"
+            cols="30"
+            rows="10"
+            placeholder="Insert your question"
+            id="question"
+          ></textarea>
+        </label>
+
+        <label class="label" for="answer"
+          >Answer
+          <textarea
+            name="answer"
+            cols="30"
+            rows="10"
+            placeholder="Insert your answer"
+            id="answer"
+          ></textarea>
+        </label>
+
+        <input class="form__submit" type="submit" />
+      </form>
+    </template>
+  </body>
 </html>

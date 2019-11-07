@@ -1,0 +1,15 @@
+.form {
+  display: grid;
+  gap: 20px;
+  color: whitesmoke;
+}
+.label {
+  display: grid;
+}
+.form__submit {
+  background: none;
+  color: whitesmoke;
+  font-size: 1.25rem;
+  padding: 10px;
+  border: 2px solid whitesmoke;
+}
